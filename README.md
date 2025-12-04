@@ -105,3 +105,9 @@ The backend exposes a RESTful API:
 ```bash
 git clone [https://github.com/your-username/wellness-portal.git](https://github.com/your-username/wellness-portal.git)
 cd wellness-portal
+
+
+<img width="1577" height="788" alt="Screenshot 2025-12-04 172921" src="https://github.com/user-attachments/assets/315e5c18-4774-48e1-bdac-baefdfb852ed" />
+
+
+
