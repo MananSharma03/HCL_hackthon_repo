@@ -16,8 +16,8 @@ This project is a **Minimum Viable Product (MVP)** developed to solve the need f
 ## 🏗 System Architecture
 The application follows a robust **Three-Tier Web Application** architecture:
 
-1.  **Client Layer:** A Single Page Application (SPA) built with **ReactJS** or **NextJS** that runs in the browser.
-2.  **Application Layer:** A REST API server implemented in **Node.js with Express** (or Python Django) that enforces business logic and security.
+1.  **Client Layer:** A Single Page Application (SPA) built with **ReactJS** that runs in the browser.
+2.  **Application Layer:** A REST API server implemented in **Node.js with Express** that enforces business logic and security.
 3.  **Data Layer:** A NoSQL database (**MongoDB**) for storing user profiles, goals, reminders, and audit logs.
 
 ### Deployment & DevOps
@@ -28,11 +28,11 @@ The application follows a robust **Three-Tier Web Application** architecture:
 
 ## 🛠 Tech Stack
 
-* **Frontend:** ReactJS / NextJS, CSS Modules/Sass.
-* **Backend:** Node.js (Express) or Python (Django).
-* **Database:** NoSQL (MongoDB, DynamoDB, or Firestore).
+* **Frontend:** ReactJS, CSS Modules.
+* **Backend:** Node.js (Express)
+* **Database:** NoSQL (MongoDB)
 * **Authentication:** JWT (JSON Web Tokens) with session expiration.
-* **Security:** Bcrypt password hashing, HTTPS/TLS, RBAC middleware.
+* **Security:** Bcrypt password hashing, HTTPS/TLS.
 
 ---
 
