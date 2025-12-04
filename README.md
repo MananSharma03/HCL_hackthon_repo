@@ -2,7 +2,7 @@
 
 > A secure, scalable, and responsive healthcare portal designed to facilitate wellness tracking, preventive care compliance, and secure patient-provider interaction.
 
-## 📖 Project Overview
+## Project Overview
 This project is a **Minimum Viable Product (MVP)** developed to solve the need for a unified Healthcare Wellness and Preventive Care Portal. The solution focuses on usability, security, and personalization, helping patients achieve health goals while ensuring healthcare privacy standards.
 
 **Key Objectives:**
@@ -13,7 +13,7 @@ This project is a **Minimum Viable Product (MVP)** developed to solve the need f
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 The application follows a robust **Three-Tier Web Application** architecture:
 
 1.  **Client Layer:** A Single Page Application (SPA) built with **ReactJS** that runs in the browser.
@@ -26,7 +26,7 @@ The application follows a robust **Three-Tier Web Application** architecture:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Frontend:** ReactJS, CSS Modules.
 * **Backend:** Node.js (Express)
@@ -36,30 +36,30 @@ The application follows a robust **Three-Tier Web Application** architecture:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 👤 Patient Dashboard
+### Patient Dashboard
 * **Wellness Goals:** Visual tracking of steps (target vs. actual), active time, and sleep duration.
 * **Preventive Reminders:** Alerts for upcoming events like "Annual blood test".
 * **Health Tips:** Daily advice (e.g., hydration goals).
 * **Profile Management:** View and edit basic health info, allergies, and medications.
 
-### 🩺 Provider Dashboard
+### Provider Dashboard
 * **Patient List:** View all assigned patients.
 * **Compliance Status:** Quickly identify patients who have "Met Goals" or "Missed Preventive Checkup".
 * **Detailed View:** Clickable patient summaries to review specific goals and history.
 
-### 🌐 Public Resources
+### Public Resources
 * **Health Information:** Static pages regarding COVID-19 updates, Seasonal Flu prevention, and Mental Health awareness.
 
-### 🔒 Security & Compliance
+### Security & Compliance
 * **Audit Logging:** Tracks sensitive operations (e.g., `viewProfile`, `updateGoal`) with timestamps.
 * **Data Protection:** Data encryption at rest and in transit.
 * **Consent:** Registration includes data usage consent.
 
 ---
 
-## 💾 Data Model
+## Data Model
 The database utilizes a flexible NoSQL schema with the following primary collections:
 
 | Collection | Key Fields | Description |
@@ -72,7 +72,7 @@ The database utilizes a flexible NoSQL schema with the following primary collect
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 The backend exposes a RESTful API:
 
 ### Authentication
@@ -95,7 +95,7 @@ The backend exposes a RESTful API:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 * Node.js & npm
